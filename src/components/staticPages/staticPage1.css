@@ -1,0 +1,224 @@
+.testDiv {
+    margin: 10px 0 20px 30px;
+    width: 95%;
+    height: 900px;
+    background: rgb(242,246,249);
+}
+
+.topDiv {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: rgb(41,41,41);
+}
+
+.cutTopDiv1 {
+    display: flex;
+    align-items:Center;
+    float: left;
+    width: 80%;
+    height: 100%;
+    background: rgba(41,41,41,1);
+    border: 1px solid rgba(92,90,90);
+    color:white;
+
+}
+.cutTopDiv2 {
+    display: flex;
+    align-items:Center;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: rgba(41,41,41,1);
+    border: 1px solid rgba(92,90,90);
+    color:white;
+}
+.divBox1{  
+    margin:20px 90px 10px 90px;
+    height:300px;
+    background: white;
+}
+.divBox2{  
+    margin:20px 90px 10px 90px;
+    height:460px;
+    background: rgba(189, 198, 226, 0.1);
+}
+.divBox3{  
+    float:left;
+    margin:20px 25px 10px 15px;
+    width: 30%;
+    height:91%;
+    background: white;
+}
+.divBox3Icon1 {
+    margin-left:10px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: red;
+    float: left;
+    transform: translateY(5px);
+}
+.divBox3Icon2 {
+    margin-left:5px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: orange;
+    float: left;
+    transform: translateY(5px);
+}
+.divBox3Icon3 {
+    margin-left:5px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: rgb(143, 169, 199);
+    float: left;
+    transform: translateY(5px);
+}
+.divBox4{  
+    float:left;
+    margin:20px 30px 10px 20px;
+    width: 30%;
+    height:91%;
+    background: white;
+}
+.divBox5{  
+    float:left;
+    margin:20px 10px 10px 10px;
+    width: 30%;
+    height:91%;
+}
+.divBox6{  
+    width: 100%;
+    height: 45%;
+    background: white;
+}.divBox7{  
+    margin: 43px 0 0 0;
+    width: 100%;
+    height: 45%;
+    background: white;
+}
+.calenarDiv {
+    width: 100%;
+    height: 363px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+.menuBox1 {
+    margin: 10px 10px 10px 10px;
+}
+.menuContent {
+    margin:10px 20px 10px 20px;
+    float: left;
+    width: 250px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuContent div{
+    margin-left:10px;
+}
+.menuIcon {
+    font-size: 50px;
+}
+.divTopBox {
+    width:100%;
+    height: 35px;
+    background: rgb(248,248,248);
+    display: flex;
+    align-items: center;
+}
+.divTopBoxA {
+    width:250px;
+    text-align: right;
+    font-size: 12px;
+}
+.divTopBox_left{
+    width: 90px;
+    float: left;
+    padding-left: 10px;
+}
+.divTopBox_left :after{
+    content: ':'
+}
+.divTopBox_right{
+    width: 100%;
+    padding-right: 10px;
+}
+
+.divTopBox4Content1 {
+    margin: 10px 10px 10px 10px;
+}
+.divTopBox4Content2 {
+    text-align: center;
+}
+.divTopBox7Content div{
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;
+    width: 105px;
+    height: 19px;
+    color: rgba(106, 110, 110, 1);
+    font-size: 12px;
+    cursor: pointer;
+}
+.divBox6Button {
+    margin-top:20px;
+    text-align: center;
+}
+.divBox6Button Button {
+    border-radius: 8px;
+    background:rgba(213, 220, 228, 0.1)
+}
+
+
+.item_left_1{
+    width: 160px;
+    text-align: center;
+    float: left;
+}
+.item_left_2{
+    width: 160px;
+    text-align: center;
+    border-left: 1px solid darkturquoise;
+    color:DarkTurquoise;
+    float: right;
+}
+.item_right_1 {
+    cursor: pointer;
+    width:600px;
+    text-align: right;
+    color:DarkTurquoise;
+}
+.item_right_2 {
+    cursor: pointer;
+    width:70px;
+    text-align: center;
+    color:DarkTurquoise;
+}
+.item_right_3 {
+    text-align: center;
+    cursor: pointer;
+    color:DarkTurquoise;
+}
+
+.cutTopDiv2 img {
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+}
+.cutTopDiv2 div {
+    text-align: center;
+    width: 50px;
+}
+
+body {
+    min-width: 1490px;
+    min-height: 960px;
+}

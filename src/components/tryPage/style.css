@@ -1,0 +1,16 @@
+.Table__Odiv {
+    min-width: 1344px;
+    min-height: 1024px;
+    padding: 0 10px 0 10px;
+}
+.Table__Container{
+    padding: 10px;
+}
+.Table__Search {
+    padding-left: 10px;
+    float: left;
+}
+.Table__addBtn {
+    float: right;
+    padding-right: 10px;
+}
